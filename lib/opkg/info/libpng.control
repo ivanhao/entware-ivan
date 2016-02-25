@@ -1,0 +1,10 @@
+Package: libpng
+Version: 1.2.52-1
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: armv7soft
+Installed-Size: 131733
+Description:  A PNG format files handling library

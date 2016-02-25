@@ -1,0 +1,10 @@
+Package: libaprutil
+Version: 1.5.4-1
+Depends: libc, libapr, libexpat, libsqlite3, libuuid, libiconv-full
+Source: feeds/packages/libs/apr-util
+License: Apache License
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: armv7soft
+Installed-Size: 64792
+Description:  Apache Portable Runtime Utility Library

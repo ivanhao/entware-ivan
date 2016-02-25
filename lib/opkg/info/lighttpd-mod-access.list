@@ -1,0 +1,2 @@
+/opt/etc/lighttpd/conf.d/30-access.conf
+/opt/lib/lighttpd/mod_access.so

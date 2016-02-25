@@ -1,0 +1,3 @@
+/opt/bin/minidlna
+/opt/etc/minidlna.conf
+/opt/etc/init.d/S90minidlna

@@ -1,0 +1,10 @@
+/opt/sbin/smbd
+/opt/etc/samba/lowcase.dat
+/opt/etc/init.d/S08samba
+/opt/etc/samba/valid.dat
+/opt/sbin/nmbd
+/opt/etc/samba/upcase.dat
+/opt/sbin/samba_multicall
+/opt/sbin/smbpasswd
+/opt/etc/samba/smb.conf.template
+/opt/etc/config/samba

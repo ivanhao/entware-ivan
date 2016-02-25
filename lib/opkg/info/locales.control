@@ -1,0 +1,9 @@
+Package: locales
+Version: 2.20-8b
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: armv7soft
+Installed-Size: 576080
+Description:  Locales support (independent of system lib)

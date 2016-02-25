@@ -1,0 +1,581 @@
+Package: terminfo
+Version: 5.9-2
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455959946
+Auto-Installed: yes
+
+Package: libffmpegthumbnailer
+Version: 2.0.10-1
+Depends: libc, ffmpeg, libpng, libjpeg, zlib, libstdcpp
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363633
+Auto-Installed: yes
+
+Package: samba36-server
+Version: 3.6.25-4
+Depends: libc
+Status: install user installed
+Architecture: armv7soft
+Conffiles:
+ /opt/etc/samba/smb.conf.template f40d9ffa5d4ed1229f879a34a7fcc9898b
+Installed-Time: 1456363548
+
+Package: php5-mod-dom
+Version: 5.6.13-1
+Depends: libc, php5, libxml2
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152248
+
+Package: libc
+Version: 2.20-8b
+Depends: libgcc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455959928
+Auto-Installed: yes
+
+Package: locales
+Version: 2.20-8b
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455959943
+Auto-Installed: yes
+
+Package: php5-mod-iconv
+Version: 5.6.13-1
+Depends: libc, php5, libiconv-full
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152249
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456150891
+Auto-Installed: yes
+
+Package: libpthread
+Version: 2.20-8b
+Depends: libgcc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455959934
+Auto-Installed: yes
+
+Package: alsa-lib
+Version: 1.0.29-1
+Depends: libc, libpthread, librt
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363649
+Auto-Installed: yes
+
+Package: lighttpd-mod-cgi
+Version: 1.4.36-1
+Depends: libc, lighttpd
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152007
+
+Package: libmcrypt
+Version: 2.5.8-2
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456152291
+Auto-Installed: yes
+
+Package: php5-cli
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456360220
+
+Package: libacl
+Version: 20140812-1
+Depends: libc, libattr
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456153351
+Auto-Installed: yes
+
+Package: libcurl
+Version: 7.43.0-1
+Depends: libc, libopenssl, zlib
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456150980
+Auto-Installed: yes
+
+Package: libogg
+Version: 1.3.2-2
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363633
+Auto-Installed: yes
+
+Package: php5-mod-sqlite3
+Version: 5.6.13-1
+Depends: libc, php5, libsqlite3
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152243
+
+Package: php5-mod-xmlreader
+Version: 5.6.13-1
+Depends: libc, php5, libxml2
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456390305
+
+Package: libpcre
+Version: 8.37-2
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455960716
+Auto-Installed: yes
+
+Package: libexif
+Version: 0.6.21-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363625
+Auto-Installed: yes
+
+Package: php5-mod-xml
+Version: 5.6.13-1
+Depends: libc, php5, libxml2
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456150937
+
+Package: php5-mod-zip
+Version: 5.6.13-1
+Depends: libc, php5, zlib
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152213
+
+Package: bzip2
+Version: 1.0.6-2
+Depends: libc, libbz2
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456153343
+
+Package: php5-mod-openssl
+Version: 5.6.13-1
+Depends: libc, php5, libopenssl
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152294
+
+Package: libflac
+Version: 1.3.1-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363629
+Auto-Installed: yes
+
+Package: libiconv-full
+Version: 1.11.1-2
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455963564
+Auto-Installed: yes
+
+Package: tar
+Version: 1.28-2
+Depends: libc, bzip2, libacl, libattr
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456153352
+
+Package: libvorbis
+Version: 1.3.5-1
+Depends: libc, libogg
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363632
+Auto-Installed: yes
+
+Package: libaprutil
+Version: 1.5.4-1
+Depends: libc, libapr, libexpat, libsqlite3, libuuid, libiconv-full
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455963542
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.9.2-3
+Depends: libc, libpthread, zlib
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455963461
+Auto-Installed: yes
+
+Package: lighttpd
+Version: 1.4.36-1
+Depends: libc, libopenssl, libpcre, libpthread
+Status: install user installed
+Architecture: armv7soft
+Conffiles:
+ /opt/etc/lighttpd/lighttpd.conf 0ed87deb6de0dd092aac404267a000f0c2
+Installed-Time: 1455963625
+
+Package: sqlite3-cli
+Version: 3081101-1
+Depends: libc, libsqlite3, libncurses, libreadline
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152242
+
+Package: php5-mod-xmlwriter
+Version: 5.6.13-1
+Depends: libc, php5, libxml2
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456390438
+
+Package: php5-mod-mcrypt
+Version: 5.6.13-1
+Depends: libc, php5, libmcrypt, libltdl
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152291
+
+Package: php5-mod-pdo
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152216
+
+Package: libpng
+Version: 1.2.52-1
+Depends: libc, zlib
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456150895
+Auto-Installed: yes
+
+Package: php5-mod-curl
+Version: 5.6.13-1
+Depends: libc, php5, libcurl
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456150980
+
+Package: curl
+Version: 7.43.0-1
+Depends: libc, libcurl
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456151037
+
+Package: zoneinfo-core
+Version: 2015f-1
+Depends: libc
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152214
+
+Package: libstdcpp
+Version: 4.8.3-8b
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455959933
+Auto-Installed: yes
+
+Package: libltdl
+Version: 2.4-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455963570
+Auto-Installed: yes
+
+Package: libgcc
+Version: 4.8.3-8b
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455959930
+Auto-Installed: yes
+
+Package: libreadline
+Version: 6.3-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456152242
+Auto-Installed: yes
+
+Package: php5-mod-gd
+Version: 5.6.13-1
+Depends: libc, php5, libjpeg, libpng, libfreetype
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456150901
+
+Package: php5-mod-exif
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152302
+
+Package: libuuid
+Version: 2.25.2-4
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455963541
+Auto-Installed: yes
+
+Package: libapr
+Version: 1.5.2-2
+Depends: libc, libpthread, librt, libuuid
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455963540
+Auto-Installed: yes
+
+Package: php5-mod-ctype
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152217
+
+Package: librt
+Version: 2.20-8b
+Depends: libpthread
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455959934
+Auto-Installed: yes
+
+Package: php5-mod-mbstring
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152229
+
+Package: php5-mod-fileinfo
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152301
+
+Package: lighttpd-mod-access
+Version: 1.4.36-1
+Depends: libc, lighttpd
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152017
+
+Package: libintl-full
+Version: 0.19.4-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363650
+Auto-Installed: yes
+
+Package: libncurses
+Version: 5.9-2
+Depends: libc, terminfo
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456152239
+Auto-Installed: yes
+
+Package: php5-mod-hash
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152246
+
+Package: unixodbc
+Version: 2.3.4-1
+Depends: libc, libltdl, libpthread
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455963569
+Auto-Installed: yes
+
+Package: minidlna
+Version: 1.1.5-1a
+Depends: libc, libpthread, libexif, libjpeg, libsqlite3, libid3tag, libflac, libvorbis, libuuid, libffmpegthumbnailer, libpng, libiconv-full, libintl-full
+Status: install user installed
+Architecture: armv7soft
+Conffiles:
+ /opt/etc/minidlna.conf d255425a792c608af6acf39253c4b2cf91
+Installed-Time: 1456363650
+
+Package: php5-mod-simplexml
+Version: 5.6.13-1
+Depends: libc, php5, libxml2
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152244
+
+Package: php5-mod-pdo-sqlite
+Version: 5.6.13-1
+Depends: libc, php5, php5-mod-pdo, libsqlite3, librt
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152217
+
+Package: php5
+Version: 5.6.13-1
+Depends: libc, libpcre, zlib, libxml2
+Status: install user installed
+Architecture: armv7soft
+Conffiles:
+ /opt/etc/php.ini a80c0c495e87bca2668016dedf48fddd3f
+Installed-Time: 1455963461
+
+Package: zlib
+Version: 1.2.8-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455960714
+Auto-Installed: yes
+
+Package: findutils
+Version: 4.5.14-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455959945
+Auto-Installed: yes
+
+Package: php5-mod-session
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152211
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363626
+Auto-Installed: yes
+
+Package: libsqlite3
+Version: 3081101-1
+Depends: libc, libpthread
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1455963554
+Auto-Installed: yes
+
+Package: ffmpeg
+Version: 2.8-1
+Depends: libc, libpthread, libffmpeg-full
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363635
+Auto-Installed: yes
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455963543
+Auto-Installed: yes
+
+Package: libbz2
+Version: 1.0.6-2
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456150901
+Auto-Installed: yes
+
+Package: php5-mod-json
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456152210
+
+Package: lighttpd-mod-fastcgi
+Version: 1.4.36-1
+Depends: libc, lighttpd
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456151827
+
+Package: libfreetype
+Version: 2.5.5-2
+Depends: libc, zlib, libbz2
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456150899
+Auto-Installed: yes
+
+Package: glibc-opt
+Version: 2.20-5
+Depends: libc, libgcc, libstdcpp, libpthread, librt, locales, findutils, terminfo
+Status: install user installed
+Architecture: armv7soft
+Conffiles:
+ /opt/etc/profile 81a2ce3490ea93fb3332e8861ae72fd079
+Installed-Time: 1455959946
+
+Package: libattr
+Version: 20150220-1
+Depends: libc
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456153351
+Auto-Installed: yes
+
+Package: libopenssl
+Version: 1.0.2d-1
+Depends: libc, zlib
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1455960712
+Auto-Installed: yes
+
+Package: php5-cgi
+Version: 5.6.13-1
+Depends: libc, php5
+Status: install user installed
+Architecture: armv7soft
+Installed-Time: 1456151286
+Auto-Installed: yes
+
+Package: libffmpeg-full
+Version: 2.8-1
+Depends: libc, libpthread, zlib, libbz2, alsa-lib
+Provides: libffmpeg
+Status: install ok installed
+Architecture: armv7soft
+Installed-Time: 1456363647
+Auto-Installed: yes
+

@@ -1,0 +1,8 @@
+Package: libffmpegthumbnailer
+Version: 2.0.10-1
+Depends: libc, ffmpeg, libpng, libjpeg, zlib, libstdcpp
+Source: feeds/qdev/ffmpegthumbnailer
+Section: libs
+Architecture: armv7soft
+Installed-Size: 23381
+Description:  libffmpegthumbnailer is a library that can be used to create thumbnails for your video files

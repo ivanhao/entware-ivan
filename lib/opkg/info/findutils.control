@@ -1,0 +1,9 @@
+Package: findutils
+Version: 4.5.14-1
+Depends: libc
+Source: feeds/oldports/findutils
+Section: utils
+Maintainer: Entware team, entware.wl500g.info
+Architecture: armv7soft
+Installed-Size: 139192
+Description:  GNU Find Utilities are the basic directory searching utilities of the GNU OS.

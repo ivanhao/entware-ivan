@@ -1,0 +1,11 @@
+Package: php5-mod-simplexml
+Version: 5.6.13-1
+Depends: libc, php5, libxml2
+Source: feeds/packages/lang/php5
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
+Architecture: armv7soft
+Installed-Size: 17607
+Description:  SimpleXML shared module

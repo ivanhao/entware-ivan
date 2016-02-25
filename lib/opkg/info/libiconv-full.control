@@ -1,0 +1,9 @@
+Package: libiconv-full
+Version: 1.11.1-2
+Depends: libc
+Source: package/libs/libiconv-full
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: armv7soft
+Installed-Size: 672185
+Description:  Character set conversion library

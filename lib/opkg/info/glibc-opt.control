@@ -1,0 +1,9 @@
+Package: glibc-opt
+Version: 2.20-5
+Depends: libc, libgcc, libstdcpp, libpthread, librt, locales, findutils, terminfo
+Source: feeds/rtndev/glibc-opt
+Section: libs
+Maintainer: Zyxmon
+Architecture: armv7soft
+Installed-Size: 1651
+Description:  provides basic toolchain libraries (dummy)

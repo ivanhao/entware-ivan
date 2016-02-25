@@ -1,0 +1,2 @@
+/opt/etc/lighttpd/conf.d/30-fastcgi.conf
+/opt/lib/lighttpd/mod_fastcgi.so
