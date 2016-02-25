@@ -25,4 +25,8 @@ Xware is a software for [Xunlei](http://luyou.xunlei.com/thread-12545-1-1.html) 
 /opt/xware/portal
 ```
 
+##Owncloud:
+It's support [owncloud5.0](https://download.owncloud.org/community/owncloud-5.0.0.tar.bz2) which is tested by me.You can test the high version youself.
+you can download owncloud to `/opt/share/www`.
+
 
