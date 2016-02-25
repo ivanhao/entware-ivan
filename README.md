@@ -25,11 +25,13 @@ lighttpd's default port is 9001,you can config it by the following method:
 vi /opt/etc/lighttpd/lighttpd.conf
 ```
 
+
 * Start lighttpd: 
 
 ```php
 /opt/sbin/lighttpd -f /opt/etc/lighttpd/lighttpd.conf
 ```
+you can add this to `/etc/rc.local` to make it auto start after boot.
 
 ##Xware:
 Xware is a software for [Xunlei](http://luyou.xunlei.com/thread-12545-1-1.html) downloader,you can run it like this:
