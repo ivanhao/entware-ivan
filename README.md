@@ -33,6 +33,8 @@ change the `server.document-root  = "/opt/share/www"` to other path you want.
 
 ```php
 /opt/sbin/lighttpd -f /opt/etc/lighttpd/lighttpd.conf
+or
+/opt/init.d/S80lighttpd start
 ```
 you can add this to `/etc/rc.local` to make it auto start after boot.
 
@@ -69,7 +71,7 @@ your can change `path = /opt/share/www` to other path you want.
 
 `/opt/sbin/samba/smbpasswd -a root` |if it's not working up,input this.
 
-`/opt/etc/init.d/samba start` |start samba server. you can add this to `/etc/rc.local` to make it auto start after boot.
+`/opt/etc/init.d/S08samba start` |start samba server. you can add this to `/etc/rc.local` to make it auto start after boot.
 
 ##minidlna
 The default minidlna config file in `/opt/etc/minidlna.conf`
@@ -92,5 +94,5 @@ your can change the `media_dir` to the multi-media path.if you want to restrict 
 #### start minidlna:
 
 ```
-service minidlna start
+/opt/etc/init.d/S90minidlna start
 ```
