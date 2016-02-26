@@ -52,6 +52,7 @@ The samba config file in `/opt/etc/samba/smb.conf`
 your can change `path = /opt/share/www` to other path you want.
 
 * config samba password
+
 `smbpasswd -a root` |input your password twice.
 
 `/opt/sbin/samba/smbpasswd -a root` |if it's not working up,input this.
