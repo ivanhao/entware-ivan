@@ -1,5 +1,5 @@
 # Entware-ivan
-***
+
 It's a entware which include lighttpd,php5,php5-cgi,php5-cli,samba,minidlna and also include XunLei Xware.It's support Owncloud.
 
 It's tested in `armv7` device such as some Openwrt device,Raspberry Pi 2,Banana Pi M1+.
@@ -19,7 +19,7 @@ Then clone the tar archive to your disk and uncompress tar archive to location:`
 If nothing goes wrong,it will show the installed packages list.
 
 ##Lighttpd config:
-* Default port and default document-root:
+### Default port and default document-root:
 
 lighttpd's default port is 9001,default document-root is `/opt/share/www` you can config it by the following method:
 ```
@@ -29,7 +29,7 @@ change the `server.port   = 9001` to other port number you want.
 
 change the `server.document-root  = "/opt/share/www"` to other path you want.
 
-* Start lighttpd: 
+### Start lighttpd: 
 
 ```php
 /opt/sbin/lighttpd -f /opt/etc/lighttpd/lighttpd.conf
