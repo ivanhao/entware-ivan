@@ -1,5 +1,6 @@
 # Entware-ivan
-It's a entware which include lighttpd,php5,php5-cgi,php5-cli,samba,minidlna and also include XunLei Xware.It's support Owncloud,you can download owncloud to `/opt/share/www`.
+***
+It's a entware which include lighttpd,php5,php5-cgi,php5-cli,samba,minidlna and also include XunLei Xware.It's support Owncloud.
 
 It's tested in `armv7` device such as some Openwrt device,Raspberry Pi 2,Banana Pi M1+.
 
@@ -25,6 +26,7 @@ lighttpd's default port is 9001,default document-root is `/opt/share/www` you ca
 vi /opt/etc/lighttpd/lighttpd.conf
 ```
 change the `server.port   = 9001` to other port number you want.
+
 change the `server.document-root  = "/opt/share/www"` to other path you want.
 
 * Start lighttpd: 
@@ -44,6 +46,3 @@ Xware is a software for [Xunlei](http://luyou.xunlei.com/thread-12545-1-1.html) 
 ```
 /opt/xware/portal
 ```
-
-
-
