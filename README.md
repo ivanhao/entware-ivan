@@ -4,7 +4,7 @@ It's a entware which include lighttpd,php5,php5-cgi,php5-cli,samba,minidlna and 
 It's tested in `armv7` device such as some Openwrt device,Raspberry Pi 2,Banana Pi M1+.
 
 ##Installation note:
-The entware will run in path:`/opt`,you can make directory `/opt` or make soft link from your Hard Driver:
+The entware will run in path:`/opt`,you can make directory `/opt` or make soft link from your Hard Driver.For example:
 ```
 ln -s /mnt/sda1/opt /opt
 ```
@@ -15,6 +15,7 @@ Then clone the tar archive to your disk and uncompress tar archive to location:`
 ```
 /opt/bin/opkg list-installed
 ```
+If nothing goes wrong,it will show the installed packages list.
 
 ##Owncloud:
 It's support [owncloud](https://owncloud.org/install/#instructions-server)8.2.2(latest version) which is tested by me.You can test other version youself.
