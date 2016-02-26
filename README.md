@@ -46,3 +46,35 @@ Xware is a software for [Xunlei](http://luyou.xunlei.com/thread-12545-1-1.html) 
 ```
 /opt/xware/portal
 ```
+##Samba:
+The samba config file in `/opt/etc/samba/smb.conf`
+
+your can change `path = /opt/share/www` to other path you want.
+
+* config samba password
+`smbpasswd -a root` |input your password twice.
+
+`/opt/sbin/samba/smbpasswd -a root` |if it's not working up,input this.
+
+`/opt/etc/init.d/samba start` |start samba server. you can add this to `/etc/rc.local` to make it auto start after boot.
+
+##minidlna:
+The default minidlna config file in `/opt/etc/minidlna.conf`
+
+change configs below:
+```
+port=8200
+media_dir=/opt/media
+db_dir=/opt/var/minidlna
+log_dir=/opt/var/minidlna
+```
+your can change the `media_dir` to the multi-media path.if you want to restrict a media_dir to specific content types, you can prepend the types, followed by a comma, to the directory:
++ "A" for audio  (eg. media_dir=A,/home/jmaggard/Music)
++ "V" for video  (eg. media_dir=V,/home/jmaggard/Videos)
++ "P" for images (eg. media_dir=P,/home/jmaggard/Pictures)
++ "PV" for pictures and video (eg. media_dir=PV,/home/jmaggard/digital_camera)
+
+* start minidlna:
+```
+service minidlna start
+```
