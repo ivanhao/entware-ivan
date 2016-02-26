@@ -17,16 +17,15 @@ Then clone the tar archive to your disk and uncompress tar archive to location:`
 ```
 If nothing goes wrong,it will show the installed packages list.
 
-##Owncloud:
-It's support [owncloud](https://owncloud.org/install/#instructions-server)8.2.2(latest version) which is tested by me.You can test other version youself.
-you can download owncloud to `/opt/share/www`.
-
 ##Lighttpd config:
-lighttpd's default port is 9001,you can config it by the following method:
+* Default port and default document-root:
+
+lighttpd's default port is 9001,default document-root is `/opt/share/www` you can config it by the following method:
 ```
 vi /opt/etc/lighttpd/lighttpd.conf
 ```
-change the `server.port   9001` to other port number you want.
+change the `server.port   = 9001` to other port number you want.
+change the `server.document-root  = "/opt/share/www"` to other path you want.
 
 * Start lighttpd: 
 
@@ -34,6 +33,11 @@ change the `server.port   9001` to other port number you want.
 /opt/sbin/lighttpd -f /opt/etc/lighttpd/lighttpd.conf
 ```
 you can add this to `/etc/rc.local` to make it auto start after boot.
+
+##Owncloud:
+It's support [owncloud](https://owncloud.org/install/#instructions-server)8.2.2(latest version) which is tested by me.You can test other version youself.
+
+you can download owncloud to `document-root` then start lighttpd.
 
 ##Xware:
 Xware is a software for [Xunlei](http://luyou.xunlei.com/thread-12545-1-1.html) downloader,you can run it like this:
