@@ -1,8 +1,8 @@
 # Entware-ivan
 
-It's a entware which include lighttpd,php5,php5-cgi,php5-cli,samba,minidlna and also include XunLei Xware.It's support Owncloud.
+>It's a entware which include lighttpd,php5,php5-cgi,php5-cli,samba,minidlna and also include XunLei Xware.It's support Owncloud.
 
-It's tested in `armv7` device such as some Openwrt device,Raspberry Pi 2,Banana Pi M1+.
+>It's tested in `armv7` device such as some Openwrt device,Raspberry Pi 2,Banana Pi M1+.
 
 ##Installation note:
 The entware will run in path:`/opt`,you can make directory `/opt` or make soft link from your Hard Driver.For example:
