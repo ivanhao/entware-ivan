@@ -46,6 +46,18 @@ Xware is a software for [Xunlei](http://luyou.xunlei.com/thread-12545-1-1.html) 
 ```
 /opt/xware/portal
 ```
+when first running,it will show the active code like this:
+```
+getting xunlei service info...
+Connecting to 127.0.0.1:9000 (127.0.0.1:9000)
+
+THE ACTIVE CODE IS: ufwhkx
+
+go to http://yuancheng.xunlei.com, bind your device with the active code.
+finished.
+```
+then use `THE ACTIVE CODE IS: xxxxxx` to bind and active your device from [http://yuangcheng.xunlei.com](http://yuangcheng.xunlei.com).
+
 ##Samba
 The samba config file in `/opt/etc/samba/smb.conf`
 
